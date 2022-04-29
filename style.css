@@ -1,0 +1,52 @@
+body{
+    background-image: url(./Images/Reflection.jpg);
+    background-position: top ;
+    background-size: cover;
+
+    font-family: 'Nanum Myeongjo', serif;
+}
+ nav{
+    margin-top: 29rem;
+    width: 100%;
+    background-color: rgba(141, 86, 106, .80); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{ 
+    color: white;
+    text-align: center;
+    text-decoration: none;  
+    margin: 4em;
+    font-weight: 800;
+    font-size: 20px;
+ }
+.imgcontainer, img{
+    margin-top: 12px;
+    width: 235px;
+}
+Section{
+    color: white;
+    margin-top: 10rem;
+    background-color: rgba(141, 86, 106, .80); 
+}
+section, h3{
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+section, p{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+section.acceptyall{
+    color: white;
+    justify-content: center;
+}
+footer{
+    margin-left: 1rem;
+    margin-top: 16rem;
+    right: 0;
+    font-size: 12px;
+    color: white;
+}
