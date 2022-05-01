@@ -1,6 +1,6 @@
 body{
     background-image: url(./Images/Reflection.jpg);
-    background-position: top ;
+    background-position: top center ;
     background-size: cover;
 
     font-family: 'Nanum Myeongjo', serif;
@@ -30,8 +30,9 @@ button p{
 nav{
     margin-top: 15em;
     margin-left: -8px;
+    margin-right: -8px;
     background-color: rgba(141, 86, 106, .80); 
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
 }
@@ -57,12 +58,12 @@ Section{
     margin-top: 10rem;
     background-color: rgba(141, 86, 106, .80); 
 }
-section, h3{
+section h3{
     display: flex;
     padding-left: 1rem;
     padding-right: 1rem;
 }
-section, p{
+section p{
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -76,4 +77,37 @@ footer{
     font-size: 11px;
     color: white;
 }
-@media 
+@media (max-width: 1087px){
+   nav a{
+        margin: 2em;
+    }
+}
+@media (max-width: 800px){
+    nav a{
+        margin: 1.75em;
+    }
+}
+@media (max-width: 745px){
+    .imgcontainer img{
+        width: 175px;
+    }
+}
+@media (max-width: 690px){
+    .imgcontainer img{
+        width: 100px;
+    }
+    nav a{ 
+        margin: 1em;
+    }
+}
+@media (max-height: 634px) and ( max-height:1240){
+    body{
+        background-image: center center;
+    }
+    button{
+        margin-top: 2rem;
+    }
+    nav{
+        margin-top: 8rem;
+    }
+}
