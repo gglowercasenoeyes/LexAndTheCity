@@ -5,15 +5,37 @@ body{
 
     font-family: 'Nanum Myeongjo', serif;
 }
- nav{
-    margin-top: 29rem;
-    width: 100%;
+button{
+    border-radius: 0px 8px 8px 0px;
+    background-color: rgba(29, 51 , 58, .80);
+    padding: 0;
+    margin-left: -8px;
+    margin-top: 8rem;
+}
+
+button:hover{
+    text-transform: uppercase;
+}
+
+button p{
+    color: white;
+    font-size: 12px;
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-left: 0em;
+    padding: 0em;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+nav{
+    margin-top: 15em;
+    margin-left: -8px;
     background-color: rgba(141, 86, 106, .80); 
     display: flex;
     justify-content: center;
     align-items: center;
 }
-a{ 
+nav a{ 
     color: white;
     text-align: center;
     text-decoration: none;  
@@ -21,11 +43,16 @@ a{
     font-weight: 800;
     font-size: 20px;
  }
-.imgcontainer, img{
+ nav a:hover{
+    text-transform: uppercase;
+ }
+.imgcontainer img{
     margin-top: 12px;
     width: 235px;
 }
 Section{
+    margin-left: -8px;
+    margin-right: -8px;
     color: white;
     margin-top: 10rem;
     background-color: rgba(141, 86, 106, .80); 
@@ -44,9 +71,9 @@ section.acceptyall{
     justify-content: center;
 }
 footer{
-    margin-left: 1rem;
-    margin-top: 16rem;
-    right: 0;
-    font-size: 12px;
+    margin-left: -8px;
+    margin-top: 16em;
+    font-size: 11px;
     color: white;
 }
+@media 
