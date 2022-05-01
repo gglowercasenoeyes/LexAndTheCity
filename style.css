@@ -24,7 +24,7 @@ button p{
     margin-right: 0em;
     margin-left: 0em;
     padding: 0em;
-    writing-mode: vertical-rl;
+    /* writing-mode: vertical-rl; */
     text-orientation: upright;
 }
 nav{
