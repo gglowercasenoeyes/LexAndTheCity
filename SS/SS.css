@@ -1,0 +1,77 @@
+body{
+    background-image: url(../Images/Bicycle.jpg);
+    background-position: top center ;
+    background-size: cover;
+    font-family: 'Nanum Myeongjo', serif;
+}
+body{
+    background-image: url(./Images/Reflection.jpg);
+    background-position: top center ;
+    background-size: cover;
+
+    font-family: 'Nanum Myeongjo', serif;
+}
+button{
+    border-radius: 0px 8px 8px 0px;
+    background-color: rgba(29, 51 , 58, .80);
+    padding: 2px;
+    margin-left: -8px;
+    margin-top: 4rem;
+}
+button:hover{
+    text-transform: uppercase;
+}
+#pick_me{
+    border-style: inset;
+    border-color: black;
+    border-width: 2px;
+    background-image: url(./Images/TheGirlsEdited.jpg);
+    background-size: cover;
+    margin-top: -6.7rem;
+    margin-left: -6px;
+    padding-right: 2px;
+
+}
+fieldset{
+    background-color: rgba(29, 51 , 58, .55);
+}
+
+button p{
+    color: white;
+    font-size: 12px;
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-left: 0em;
+    padding: 0em;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+button.content__open{
+    margin-left: 40%;
+
+}
+
+.accordian textarea::placeholder{
+    color: black;
+    line-height: 2;
+    font-weight: 600;
+    font-family: 'Nanum Myeongjo', serif;;
+}
+.accordian form{
+    color: white;
+    padding-left: 2rem;
+    padding-right: 14rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+   
+}
+.accordian__content{
+display: none;
+overflow: auto;
+}
+
+.accordian__content__open{
+    display: block;
+    max-width: 40%;
+}

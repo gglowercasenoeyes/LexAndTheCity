@@ -1,0 +1,6 @@
+body{
+    background-image: url(../Images/mxBig.jpg);
+    background-position: 50% 30%;
+    background-size: cover;
+    font-family: 'Nanum Myeongjo', serif;
+}

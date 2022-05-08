@@ -11,10 +11,94 @@
     <title>Tiny Titty Tales</title>
 </head>
 <body>
-
-    <button>
-        <p>submit</p>
-    </button>
+    <div class="accordian">
+        <button type="button" class="accordian__button">
+            <p>Submit</p>
+            <p class="swap1">&#x21b3</p>
+        </button>
+        <div id="pick_me" class="accordian__content">
+            <form>
+                <label for="state">State of Residence</label>
+                <select id="state">
+                    <option hidden>Where Do You Live?</option>
+                    <option value="Alabama">Alabama</option>
+                    <option value="Alaska">Alaska</option>
+                    <option value="Arizona">Arizona</option>
+                    <option value="Arkansas">Arkansas</option>
+                    <option value="California">California</option>
+                    <option value="Colorado">Colorado</option>
+                    <option value="Connecticut">Connecticut</option>
+                    <option value="Delaware">Delaware</option>
+                    <option value="Florida">Florida</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Hawaii">Hawaii</option>
+                    <option value="Idaho">Idaho</option>
+                    <option value="Illinois">Illinois</option>
+                    <option value="Indiana">Indiana</option>
+                    <option value="Iowa">Iowa</option>
+                    <option value="Kansas">Kansas</option>
+                    <option value="Kentucky">Kentucky</option>
+                    <option value="Louisiana">Louisiana</option>
+                    <option value="Maine">Maine</option>
+                    <option value="Maryland">Maryland</option>
+                    <option value="Massachusetts">Massachusetts</option>
+                    <option value="Michigan">Michigan</option>
+                    <option value="Minnesota">Minnesota</option>
+                    <option value="Mississippi">Mississippi</option>
+                    <option value="Missouri">Missouri</option>
+                    <option value="Montana">Montana</option>
+                    <option value="Nebraska">Nebraska</option>
+                    <option value="Nevada">Nevada</option>
+                    <option value="New Hampshire">New Hampshire</option>
+                    <option value="New Jersey">New Jersey</option>
+                    <option value="New Mexico">New Mexico</option>
+                    <option value="New York">New York</option>
+                    <option value="North Carolina">North Carolina</option>
+                    <option value="North Dakota">North Dakota</option>
+                    <option value="Ohio">Ohio</option>
+                    <option value="Oklahoma">Oklahoma</option>
+                    <option value="Oregon">Oregon</option>
+                    <option value="Pennsylvania">Pennsylvania</option>
+                    <option value="Rhode Island">Rhode Island</option>
+                    <option value="South Carolina">South Carolina</option>
+                    <option value="South Dakota">South Dakota</option>
+                    <option value="Tennessee">Tennessee</option>
+                    <option value="Texas">Texas</option>
+                    <option value="Utah">Utah</option>
+                    <option value="Vermont">Vermont</option>
+                    <option value="Virginia">Virginia</option>
+                    <option value="Washington">Washington</option>
+                    <option value="West Virginia">West Virginia</option>
+                    <option value="Wisconsin">Wisconsin</option>
+                    <option value="Wyoming">Wyoming</option> 
+                    </select>
+                    <br>
+                    <fieldset for="submissionType" required>
+                        <Legend id="submissionType">Type of Submission</Legend>
+                        <div>
+                            <input name="taleOrStory" type="radio" id="tale">
+                            <label for="tale">Tiny Titty Tale</label>
+                            <br>
+                            <input name="taleOrStory" type="radio" id="story">
+                            <label for="Story">Survivor Story</label>
+                        </div>
+                    </fieldset>
+                    <fieldset for="submission" required>
+                        <legend id="submission">Your Submission</legend>
+                        <div>
+                            <label for="submission">What would you like to share?
+                            </label>
+                            <br>
+                            <textarea 
+                            type="text" col="10" rows="10" id="submission"placeholder="Share what makes you comfortable. We ask that you change proper names to protect the innocent, for instance."></textarea>
+                        </div>
+    
+                    </fieldset>
+                    <br>
+                    <input type="submit">
+            </form>
+        </div>
+    </div>
 
     <!-- Tbh, I'm okay with this tab not being as persistent about age restriction.  Theoretically, someone under any specific age could still write things for submission "the boy was so cute and you kiss his cheek" and only access their specific post information (our version of upvotes--no down votes, maybe seen by #, etc) without accessing the whole site.  Like, if for some reason this site were to face scrutiny for educating the youth, "groomerism", or any other nonspecific grand attack on this site's integrity, fostering an "anonymous"--but ip-address recognizing--true story submission culture whose submission-component alone could be accessed by kids, might help those really interested in identifying sexual predators, but furthermore and most specifically to inform a public about patterns of abusive behaviors, and effective deescalation techniques used by empowered and emboldened victims or them around them, etc.-->  
     <!-- maybe a fun barrier could be that if your ip address didn't match the state you select, it asks you twice if you're in that state. Maybe it spits you out to the homepage if you're underage and maybe it also spits you out when you're done submitting when your ip address and state don't match.  lol.  Or maybe it could be that if you log your age as underage prior to accessing the site in it's entirity, your information is more closely logged and set in a specific array prior to approving submission. -->
@@ -24,7 +108,7 @@
 
     <nav>
         <a href="#AboutTT"><b>About Tiny Titty</b></a> 
-        <a href="#"><b>The Tales</b></a> 
+        <a href="./TTT/TTT.html"><b>The Tales</b></a> 
         <!-- next page will use BlueSky.jpg, the bright sunny day. -->
             <!-- alert form on click asking age. 18+ for now.  This is a legal question: at what point will I hit censorship boundaries in children reading about sex? -->
         <div class="imgcontainer">
@@ -33,34 +117,33 @@
             <!-- once it shrinks, I want it to sticky to top, I also want it to have functionality to refresh the page. Whether it stays as some  navbar--which might be fine since the opacity of the nav and the sections match--can just depend on what looks best stylistically -->
             <!-- https://codepen.io/lmgonzalves/pen/QPBPJe for code that recognizes scroll?  But also, this is particularly complex and may not be  entirely necessary.  looks cool af tho -->
         </div>
-        <a href="#"><b>Survivor Stories</b></a>
+        <a href="./SS/SS.html"><b>Survivor Stories</b></a>
         <!-- will use background Bicycle.jpg.  Maybe the harder of the four design challenges.  It's kinda a higher contrast image which makes it more difficult to overlay without being very involved or very muted.  Remember you can use white font for readability -->
             <!-- alert form on click asking age. 18+ for now.  This is a legal question: at what point will I hit censorship boundaries in children reading about sex AND sexual assault? -->
-        <a href="#"><b>Sister Resources</b></a>
+        <a href="./SR/SR.html"><b>Sister Resources</b></a>
         <!-- uses mxBig as the file back image.  There local rape crisis center "Ampersand" and "AVOL" have already been spoken to in the last year as well as the "Faulkner-Morgan Archive."  Local health department resources  and housing for the housing insecure are other very important things that could be alluded to.  -->
     </nav>
 <section id="AboutTT">
     <h3>Tiny Titty</h3>
     <p> 
-        A southern, femme-forward library of anonymously submitted stories/memoirs centered around queer and atypical sex, kink, sex-positivity, harm-reduction, safer sex practices, and ethical, healthy sex work. Tiny Titty was created by a trans/gender-nonconforming womxn who, at the very least, spent MANY hours of their life on online hookup/dating sites, but who also survived rape and sexual assault. In creating a platform for titillating tales, this site sets out to give perspective to those new to the subject of sexuality and to give open and honest voice to often-forgotten or under-served communities.  Black, Indigenous, People of Color, Women, Trans, Twinks, Kinksters, Pups, Ponies, Fats, and Femmes to the front. The stories themselves are supposed to be informal and fun while also *intentionally* tiny.  Share a fun, quick memory of your life painted by sexuality or sexual tension.  Discover yourself in your own writing.  Hopefully, like all good titties, these stories are more than just something pretty to look at or show off, but part of a larger body of work--namely the whole collection.  Further, fostering a community of openness and honesty might lead to others sharing Titty Tales or Survivor Stories of their own. 
+        A southern, femme-forward library of anonymously submitted stories/memoirs centered around queer and atypical sex, kink, sex-positivity, harm-reduction, safer sex practices, and ethical, healthy sex work. Tiny Titty was created by a trans/gender-nonconforming womxn who, at the very least, spent MANY hours of their life on online hookup/dating sites, but who also survived rape and sexual assault. In creating a platform for titillating tales, this site sets out to give perspective to those new to the subject of sexuality and to give open and honest voice to often-forgotten or under-served communities.  Black, Indigenous, People of Color, Women, Trans, Twinks, Kinksters, Pups, Ponies, Fats, and Femmes to the front. The stories themselves are supposed to be informal and fun while also *intentionally* tiny.  Share a fun, quick memory of your life painted in sexuality or sexual tension.  Discover yourself in your own writing.  Hopefully, like all good titties, these stories are more than just something pretty to look at or show off, but part of a larger body of work--namely the whole collection.  Further, fostering a community of openness and honesty might lead to others sharing Titty Tales or Survivor Stories of their own. 
     </p>
     <p>
-        Survivor Stories is designed as space for those who have experienced trauma, arising out of what may've begun as a sexual experience, to tell their stories.  Abortion, difficult childbirth, sexual assault, spousal rape, domestic abuses--topics not quite in-step with Tiny Titty Tales--need to be heard. Decidedly not sex, these traumas still paint the day-to-day lives of the individuals who experienced them. If you survived, you should feel empowered and comfortable sharing your story with your community as any insight that allowed you to overcome your experience might very easily help someone else when faced with those same stakes in the future. Your voice is heard, valid, and valuable.  Your experience does not have to just color your life like a dark cloud, but can be the catalyst for someone else's survival.  Never forget how valuable your perspective can be.
+        Survivor Stories is designed as space for those who have experienced trauma, arising out of what may've begun as a sexual experience, to tell their stories.  Abortion, difficult childbirth, rape, sexual assault, spousal rape, domestic abuses--topics not quite in-step with Tiny Titty Tales--need to be heard. Decidedly not sex, these traumas still paint the day-to-day lives of the individuals who experienced them. If you survived, you should feel empowered and comfortable sharing your story with your community as any insight that allowed you to overcome your experience might very easily help someone else when faced with those same stakes in the future. Your voice is heard, valid, and valuable.  Your experience does not have to just color your life like a dark cloud, but can be the catalyst for someone else's survival.  Never forget how valuable your perspective can be.
     </p>
     <p>
         Titty Tales as a broad project follows in the established intersection of southern, feminist, and queer storytelling traditions.  We’re here, we’re queer, we’ve made decisions and lived lives, and we share these stories so that anyone reading can do the same and thrive. All sexes, gender identities, races, religious and sexual orientations welcome. No fascism nor hate tolerated—your philosophy may be up for debate, but human existence and human experience are not.     
     </p>
 </section>
-<section class="acceptyall">
-    <p>
+
+<footer>
+    <p class="acceptyall">
         <b>***All submissions must be written in the second-person.</b> We accept <b>“ya’ll”</b> ‘round here.<b>***</b>
     </p>
-</section>
-<footer>
-    <p>
+    <p class="ggDesign">
         ggDesign, copyright &copy; 2022
     </p>
 </footer>
-<script>script.js</script>
+<script src="script.js"></script>
 </body>
 </html>

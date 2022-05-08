@@ -1,0 +1,30 @@
+body{
+    background-image: url(../Images/BlueSky.jpg);
+    background-position: top center ;
+    background-size: cover;
+    font-family: 'Nanum Myeongjo', serif;
+}
+nav{
+    margin-top: 28em;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: rgba(141, 86, 106, .80); 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a{ 
+    color: white;
+    text-align: center;
+    text-decoration: none;  
+    margin: 4em;
+    font-weight: 800;
+    font-size: 20px;
+ }
+ nav a:hover{
+    text-transform: uppercase;
+ }
+.imgcontainer img{
+    margin-top: 12px;
+    width: 235px;
+}
