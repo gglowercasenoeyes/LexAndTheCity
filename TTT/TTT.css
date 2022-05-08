@@ -28,3 +28,6 @@ nav a{
     margin-top: 12px;
     width: 235px;
 }
+/* Long term, I kinda see "The Tales" down the left side here, transitioned smoothly from wherever the sticky nav on the homepage fell when the user chooses to navigate to the page.  Not sure where I'll move submit--so I'll probably keep it all formatted as is for the time being.  For now, I'll work on the homepage navigation--sticky to the bottom when submit is pressed, sticky to the top when scrolling down.
+*/
+/*  I know that I want the styling for the tales to kinda be like tetrised in.  If possible, I might look for an opportunity to keep them vaguely portrait (for smaller screens), all with borders, and have them flexbox.  For orphan flexboxes, I could either change the formatting to fit the screen horizontally or I could just build a flexbox system that tends towards fitting?  center-aligned tetris?  */
