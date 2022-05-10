@@ -19,7 +19,7 @@
         <div id="pick_me" class="accordian__content">
             <form>
                 <label for="state">State of Residence</label>
-                <select id="state">
+                <select for="state" id="state">
                     <option hidden>Where Do You Live?</option>
                     <option value="Alabama">Alabama</option>
                     <option value="Alaska">Alaska</option>
@@ -73,14 +73,18 @@
                     <option value="Wyoming">Wyoming</option> 
                     </select>
                     <br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Provide A Valid Email" required>
+                    <br>
                     <fieldset for="submissionType" required>
                         <Legend id="submissionType">Type of Submission</Legend>
                         <div>
                             <input name="taleOrStory" type="radio" id="tale">
-                            <label for="tale">Tiny Titty Tale</label>
+                            <label id="tale" for="tale">Tiny Titty Tale</label>
                             <br>
                             <input name="taleOrStory" type="radio" id="story">
-                            <label for="Story">Survivor Story</label>
+                            <label for="story">Survivor Story</label>
                         </div>
                     </fieldset>
                     <fieldset for="submission" required>
@@ -89,13 +93,13 @@
                             <label for="submission">What would you like to share?
                             </label>
                             <br>
-                            <textarea 
-                            type="text" col="10" rows="10" id="submission"placeholder="Share what makes you comfortable. We ask that you change proper names to protect the innocent, for instance."></textarea>
+                            <textarea id="fullSubmission"
+                            type="text" col="10" rows="10" id="submission" placeholder="Share what makes you comfortable. We ask that you change all proper names to protect the innocent."></textarea>
                         </div>
     
                     </fieldset>
                     <br>
-                    <input type="submit">
+                    <input id="submitToModerate" type="submit">
             </form>
         </div>
     </div>

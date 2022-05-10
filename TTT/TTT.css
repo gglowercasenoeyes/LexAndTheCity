@@ -9,8 +9,8 @@ nav{
     margin-left: -8px;
     margin-right: -8px;
     background-color: rgba(141, 86, 106, .80); 
-    display: inline-flex;
-    justify-content: center;
+    display: block;
+    /* justify-content: center; */
     align-items: center;
 }
 nav a{ 
@@ -20,13 +20,15 @@ nav a{
     margin: 4em;
     font-weight: 800;
     font-size: 20px;
+    padding-bottom: 5rem;
  }
  nav a:hover{
     text-transform: uppercase;
  }
-.imgcontainer img{
+img{
+    margin:auto;
     margin-top: 12px;
-    width: 235px;
+    width: 150px;
 }
 /* Long term, I kinda see "The Tales" down the left side here, transitioned smoothly from wherever the sticky nav on the homepage fell when the user chooses to navigate to the page.  Not sure where I'll move submit--so I'll probably keep it all formatted as is for the time being.  For now, I'll work on the homepage navigation--sticky to the bottom when submit is pressed, sticky to the top when scrolling down.
 */

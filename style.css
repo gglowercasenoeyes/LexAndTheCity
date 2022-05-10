@@ -43,13 +43,18 @@ button p{
 
 button.content__open{
     margin-left: 40%;
-
 }
 
-.accordian textarea::placeholder{
+textarea::placeholder{
     color: black;
+    font-weight: 700;
+    font-family: 'Nanum Myeongjo', serif;
     line-height: 2;
-    font-weight: 600;
+   
+}
+#email::placeholder{
+    color: black;
+    font-weight: 700;
     font-family: 'Nanum Myeongjo', serif;;
 }
 .accordian form{
@@ -61,8 +66,8 @@ button.content__open{
    
 }
 .accordian__content{
-display: none;
-overflow: auto;
+    display: none;
+    overflow: auto;
 }
 
 .accordian__content__open{
