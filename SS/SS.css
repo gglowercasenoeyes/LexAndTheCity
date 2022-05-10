@@ -4,13 +4,6 @@ body{
     background-size: cover;
     font-family: 'Nanum Myeongjo', serif;
 }
-body{
-    background-image: url(./Images/Reflection.jpg);
-    background-position: top center ;
-    background-size: cover;
-
-    font-family: 'Nanum Myeongjo', serif;
-}
 button{
     border-radius: 0px 8px 8px 0px;
     background-color: rgba(29, 51 , 58, .80);
